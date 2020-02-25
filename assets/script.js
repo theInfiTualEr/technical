@@ -6,6 +6,7 @@ function biggerText() {
     if (content == null) {
        return 
     }
+
     contentSize += contentSizeConst;
     content.style.fontSize = `${contentSize}rem`;
 }
@@ -14,6 +15,7 @@ function smallerText() {
     if (content == null) {
         return
     }
+    
     contentSize -= contentSizeConst;
     content.style.fontSize = `${contentSize}rem`;
 }
