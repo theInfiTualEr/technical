@@ -155,6 +155,7 @@ html {
 #content {
     word-wrap: break-word;
     text-align: justify;
+    margin: 25px 0;
 }
 
 .table {
