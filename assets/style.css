@@ -89,6 +89,9 @@
     a {
         text-decoration: inherit;
     }
+    .navbar {
+        display: none !important;
+    }
 }
 
 /* Reset */
