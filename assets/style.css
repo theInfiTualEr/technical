@@ -32,13 +32,21 @@
 
 /* Media Queries */
 
-@media (max-width: 375px) {
+@media (max-width: 370px) {
+    .container {
+        max-width: 100%;
+    }
+
     .table div {
         width: 100%;
     }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 370px) {
+    .container {
+        max-width: 100%;
+    }
+
     .table div {
         width: 50%;
     }
@@ -89,6 +97,7 @@
     a {
         text-decoration: inherit;
     }
+
     .navbar {
         display: none !important;
     }
@@ -158,7 +167,7 @@ html {
 #content {
     word-wrap: break-word;
     text-align: justify;
-    margin: 25px 0;
+    margin: 35px 0;
 }
 
 .table {
@@ -178,4 +187,8 @@ html {
 
 .item img {
     height: 150px;
+}
+
+hr {
+    margin: 25px 0;
 }
